@@ -1,6 +1,6 @@
+@custom_create
 Feature: User able to create and manage custom conversions
 
-  @custom_create
   Scenario: User able to create nee conversion
     #Given I land on home screen
     Then I press on menu icon

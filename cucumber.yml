@@ -1,6 +1,6 @@
-custom: -t @custom_create
+custom: -t @custom_create --format html --out report.html
 home: -t @home_screen
 main: -t @main_menu
 
-arg: -t @custom_create, @home_screen
+any: -t @custom_create, @home_screen
 strict: -t @custom_create -t @home_screen
